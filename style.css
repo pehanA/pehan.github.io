@@ -8,10 +8,12 @@ body {
 }
 
 .container {
-  max-width: 100%;
-  margin: 0;
-  padding: 20px 30px;
-  border-radius: 0;
+  max-width: 1000px; /* Increase from 820px to widen the content area */
+  margin: 30px auto;
+  padding: 20px 15px; /* Second value is left/right inner padding */
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
   
 }
