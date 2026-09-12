@@ -62,7 +62,8 @@ nav a.active {
 }
 
 .profile-pic {
-  width: 170px;
+  width: 200px;
+  height: auto
   border-radius: 4px;
   border: 1px solid #ddd;
   object-fit: cover;
