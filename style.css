@@ -8,12 +8,12 @@ body {
 }
 
 .container {
-  max-width: 1000px;
-  margin: 30px auto;
-  padding: 20px 15px;
-  background: #ffffff;
-  border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  max-width: 100%;
+  margin: 0;
+  padding: 20px 30px;
+  border-radius: 0;
+}
+  
 }
 
 /* Header & Navigation */
