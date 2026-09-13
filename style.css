@@ -128,6 +128,11 @@ footer {
   width: 170px;
   height: 110px;
   object-fit: cover;
+  box-shadow: none;     /* Removes any drop shadow */
+  border-radius: 0;     /* (Optional) Removes rounded corners if you want square edges */
+  flex-shrink: 0;
+}
+  
   flex-shrink: 0; /* Prevents image from shrinking */
 }
 
@@ -180,6 +185,9 @@ footer {
 .paper-img {
   width: 10px;       /* Increased from 170px */
   height: auto;      /* Increased from 110px to keep roughly a 16:10 ratio */
+  border: none;         /* Removes the gray outline */
+  box-shadow: none;     /* Removes any drop shadow */
+  border-radius: 0;     /* (Optional) Removes rounded corners if you want square edges */
   flex-shrink: 0;
 }
 }
