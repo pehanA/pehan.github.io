@@ -193,3 +193,31 @@ footer {
   flex-shrink: 0;
 }
 }
+
+/* Notes Page Styling */
+.notes-list {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.notes-list li {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.notes-list a {
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.notes-list a:hover {
+  text-decoration: underline;
+}
+
+.note-desc {
+  margin: 5px 0 0 0;
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
