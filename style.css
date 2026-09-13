@@ -182,7 +182,6 @@ footer {
 .paper-img {
   width: 500px;       /* Increased from 170px */
   height: auto;      /* Increased from 110px to keep roughly a 16:10 ratio */
-  object-fit: cover;
   border-radius: 4px;
   border: 1px solid #ddd;
   flex-shrink: 0;
