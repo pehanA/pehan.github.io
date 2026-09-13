@@ -126,6 +126,7 @@ footer {
 /* Thumbnail preview */
 .paper-img {
   width: 170px;
+  max-width: 100%;
   height: 110px;
   object-fit: cover;
   box-shadow: none;     /* Removes any drop shadow */
@@ -184,6 +185,7 @@ footer {
 /* Larger Thumbnail preview */
 .paper-img {
   width: 10px;       /* Increased from 170px */
+  max-width: 100%;
   height: auto;      /* Increased from 110px to keep roughly a 16:10 ratio */
   border: none;         /* Removes the gray outline */
   box-shadow: none;     /* Removes any drop shadow */
